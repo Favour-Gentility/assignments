@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+header {
+  background-color: rgb(1, 1, 21);
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  margin: 0 64px 0 64px;
+
+}
+
+main {
+  margin-top: 40px;
+}
+
+h1 {
+  background-color: cadetblue;
+  color:aliceblue;
+  width: 35%;
+  font-size: 1em; 
+  margin-block-start: 0.67em;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+  display: block;
+  font-size: 0.6em;
+}
+
+nav ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav a:hover {
+text-decoration: underline; /*underline only shows on hover*/
+color: cadetblue;
+}
+
+h2 {
+text-decoration: underline;
+text-align: center;
+font-style: oblique;
+}
+
+.h2 :hover {
+color: rgb(157, 218, 51);
+}
+
+.monday p {
+  margin: 15px;
+  border: 5px orange dashed;
+  border-radius: 40px;
+  padding: 5px 10px;
+  font-style: oblique;
+  font-size: 70%;
+}
+
+button {
+  background-color: rgb(105, 148, 235);
+  color: rgb(20, 20, 17);
+  padding: 10px 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+}
+
+.circle-btn :hover{
+  background-color: rgb(64, 115, 218);
+  color: white;
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+.mt-2 {
+  margin-top: 50px;
+}
+
+p {
+  font-size: 75%;
+  text-align: justify;
+  display: block;
+  line-height: 2;
+  margin: 15px;
+  
+}
+
+footer {
+  background-color: rgb(1, 1, 21);
+  padding: 10px;
+  color: white;
+}
