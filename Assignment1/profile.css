@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+li {
+    list-style:none ;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+h1, h2 {
+    color: rgb(46, 46, 8);
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    margin: 0 20px;
+}
+
+img {
+    border: 20px double black;
+}
+a:hover {
+    color: purple;
+}
+
+thead:hover {
+    background-color: pink;f
+    color: rgb(255, 0, 212);
+}
+
+tr:hover  {
+    background-color: blue;
+    color: red;
+}
+
+td:hover {
+    background-color: yellow;
+    color: green;
+}
