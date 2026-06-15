@@ -1,0 +1,190 @@
+:root {
+    --base:  #0b0f1a;
+    --fore: #111827;
+    --primary: #facc15;
+    --white: #fff;
+    --black: #000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--base);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer div:last-child {
+    background-color: var(--fore);
+    padding: 2rem;
+}
+header nav a {
+    display: none;
+}
+
+
+header {
+    position: relative;
+}
+
+header div {
+    width: 100%;
+    background-color: var(--fore);
+    position: fixed;
+    padding: 2rem;
+    display: flex; 
+    justify-content: space-around;
+    top: 0;
+}
+
+
+
+.about-container .right {
+    order: -1;
+}
+.email {
+    text-decoration: underline;
+}
+
+
+
+.skill-card {
+    background-color: var(--fore);
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    border: pink 1px solid;
+    transition: 300ms all ease-in-out;
+}
+.skill-card:hover {
+    scale: 1.1;
+    border-color: var(--primary);
+}
+
+.project-card div {
+    width: 100%;
+    background-color: var(--fore);
+    height: 35rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.project-card div img {
+    width: 100%;
+    height: 20rem;
+}
+
+.text-center, h1 {
+    text-align: center;
+}
+
+.button {
+    background-color: var(--primary);
+    color: var(--base);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+}
+
+.image-container {
+    border: 1px double var(--primary);
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Reusable Styling */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.mt-32 {
+    margin-top: 5rem;
+}
+.mt-64, main {
+    margin-top: 7rem;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.grid {
+    display: grid;
+}
+.grid-col-2 {
+    grid-template-columns: 1fr;
+}
+.space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-item {
+    align-items: center;
+}
+.mx-2 {
+    margin: 0 2rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 2rem;
+}
+a { color: var(--primary); text-decoration: none;}
+p, h1 { color: var(--white);}
+
+
+@media only screen and (min-width: 768px) {
+    header {
+        justify-content: space-around;
+    }
+    header nav a, header, header nav {
+        display: flex;
+    }
+
+    .grid-col-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+    .about-container .right {
+        order: 2;
+    }
+
+    .project-card {
+        flex-direction: row;
+    }
+
+}
+
+
+
+
+
+
+
+/* Animations */
